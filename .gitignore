@@ -1,0 +1,15 @@
+.venv/
+.venv*/
+__pycache__/
+*.pyc
+.pytest_cache/
+.pio/
+.env
+models/*.tflite
+artifacts/*
+!artifacts/.gitkeep
+config/local.yaml
+firmware/include/secrets.h
+deploy/runtime/
+.pio-core/
+*.egg-info/

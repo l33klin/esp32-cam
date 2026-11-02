@@ -1,0 +1,54 @@
+name: indoorcam
+services:
+  mediamtx:
+    image: bluenviron/mediamtx:1.12.3
+    restart: unless-stopped
+    ports:
+      - '${LAN_IP:?Set LAN_IP}:18554:8554/tcp'
+    volumes:
+      - ./runtime/mediamtx.json:/mediamtx.yml:ro
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+
+  mqtt:
+    image: eclipse-mosquitto:2.0.22
+    user: '1883:1883'
+    restart: unless-stopped
+    ports:
+      - '${LAN_IP:?Set LAN_IP}:18883:1883/tcp'
+    volumes:
+      - ./runtime/mosquitto.conf:/mosquitto/config/mosquitto.conf:ro
+      - ./runtime/passwords:/mosquitto/config/passwords:ro
+      - mqtt-data:/mosquitto/data
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+
+  analytics:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    restart: unless-stopped
+    depends_on: [mediamtx, mqtt]
+    devices: ['/dev/apex_0:/dev/apex_0', '/dev/apex_1:/dev/apex_1']
+    group_add: ['${APEX_GID:-1004}']
+    environment:
+      MQTT_PASSWORD: '${MQTT_PASSWORD:?Run scripts/provision.py}'
+    volumes:
+      - ./runtime/config.json:/run/indoorcam/config.yaml:ro
+      - '${MEDIA_DIR:-./runtime/media}:/media:ro'
+    ports:
+      - '${LAN_IP:?Set LAN_IP}:18081:8080/tcp'
+    read_only: true
+    tmpfs: [/tmp]
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8080/health',timeout=3)"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+
+volumes:
+  mqtt-data:

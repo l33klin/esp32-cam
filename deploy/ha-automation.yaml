@@ -1,0 +1,26 @@
+# Add using HA Settings > Automations > Create > Edit in YAML.
+# Replace event entity ID and notify service with actual names from HA.
+alias: Indoor camera possible fall
+description: Heuristic candidate; requires a person to check the scene
+triggers:
+  - trigger: state
+    entity_id: event.indoor_camera_fall_candidate_event
+conditions:
+  - condition: template
+    value_template: >-
+      {{ trigger.to_state is not none
+         and trigger.to_state.state not in ['unknown', 'unavailable']
+         and trigger.to_state.attributes.event_type == 'fall_candidate'
+         and not trigger.to_state.attributes.get('test', false)
+         and ((as_timestamp(now()) - as_timestamp(trigger.to_state.attributes.timestamp, 0)) | abs) < 10 }}
+actions:
+  - action: persistent_notification.create
+    data:
+      title: 疑似跌倒
+      message: 室内摄像头检测到快速倒地并持续躺卧，请查看实时画面确认。
+  # Optional: replace with your mobile app's service.
+  # - action: notify.mobile_app_your_phone
+  #   data:
+  #     title: 疑似跌倒
+  #     message: 请查看室内摄像头确认。
+mode: single

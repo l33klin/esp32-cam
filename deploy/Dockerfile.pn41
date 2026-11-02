@@ -1,0 +1,13 @@
+# Offline fallback for pn41's already-installed Coral validation image.
+# The portable build is deploy/Dockerfile; this base is specific to this server.
+FROM human-detect:media-validation-20261021
+USER root
+WORKDIR /app
+COPY downloads/indoorcam-wheels /opt/indoorcam-wheels
+RUN pip install --no-index --find-links /opt/indoorcam-wheels --upgrade \
+    PyYAML paho-mqtt pytest
+COPY indoorcam /app/indoorcam
+COPY models /app/models
+USER 1000:1000
+ENTRYPOINT ["python", "-m", "indoorcam.app"]
+CMD ["--config", "/run/indoorcam/config.yaml"]

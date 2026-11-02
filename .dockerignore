@@ -1,0 +1,9 @@
+.git
+.venv*
+.pio*
+artifacts
+deploy/runtime
+firmware
+__pycache__
+*.mkv
+*.mp4

@@ -1,0 +1,5 @@
+# Use after building the offline image on pn41.
+services:
+  analytics:
+    image: indoorcam:pn41
+    pull_policy: never

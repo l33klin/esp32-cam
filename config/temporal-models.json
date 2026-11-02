@@ -1,0 +1,68 @@
+{
+  "research/pose_utils.py": {
+    "url": "https://raw.githubusercontent.com/GajuuzZ/Human-Falling-Detect-Tracks/master/pose_utils.py",
+    "bytes": 776,
+    "sha256": "7df6d56cd87c46b1dca3ed16ef926eff7a2397d8b34d7ef312fa8c68b2bc0ff8"
+  },
+  "research/kinetics_600_labels.txt": {
+    "url": "https://raw.githubusercontent.com/tensorflow/models/master/official/projects/movinet/files/kinetics_600_labels.txt",
+    "bytes": 9209,
+    "sha256": "8dfca4202520ea8291ce0242ef33b006d0a0772b409663c090a2876bc1978dcf"
+  },
+  "models/tsstg-model.pth": {
+    "url": "https://drive.usercontent.google.com/download?id=1MAk2v0peCa4Fs9zw9-N3ssuG4Y1MIItO&export=download&confirm=t",
+    "bytes": 24708522,
+    "sha256": "1cac9a6da99d5d67da8ab58ee7633c5e923d85fba668673f028792819750a149",
+    "matches_public_git_lfs_sha256": true
+  },
+  "models/movinet_a0_stream.tflite": {
+    "url": "https://storage.googleapis.com/tf_model_garden/vision/movinet/movinet_a0_stream.tflite",
+    "bytes": 27141832,
+    "sha256": "04c02709bce4a8233b03f36620909924735051cfd4bcc83e3d9d7db9bbf375ad"
+  },
+  "research/tcn/fall/models/__init__.py": {
+    "url": "https://huggingface.co/datasets/minhy112/pose-guided-fall-detection-icta2026/resolve/main/fall/models/__init__.py",
+    "sha256": "d4186b63b587ee1181d6b02ac39950feb3cd7bb22070ac7ff0e5b2df63cef354",
+    "bytes": 456
+  },
+  "research/tcn/fall/models/attention.py": {
+    "url": "https://huggingface.co/datasets/minhy112/pose-guided-fall-detection-icta2026/resolve/main/fall/models/attention.py",
+    "sha256": "86679385055a0181fc577bc26905b375cfe0d7e03bbf4132d56a81013ffde97c",
+    "bytes": 585
+  },
+  "research/tcn/fall/models/pose.py": {
+    "url": "https://huggingface.co/datasets/minhy112/pose-guided-fall-detection-icta2026/resolve/main/fall/models/pose.py",
+    "sha256": "d094066e1261723841e3cd43c76d8a7ee723ec880187c9ec206bbf6ebe937acd",
+    "bytes": 4221
+  },
+  "research/tcn/fall/models/rgb.py": {
+    "url": "https://huggingface.co/datasets/minhy112/pose-guided-fall-detection-icta2026/resolve/main/fall/models/rgb.py",
+    "sha256": "0ae4c166cf4b1e8ff86792efd9ef0cd86ab839bbcdb1673b49bcec93be4e64b2",
+    "bytes": 4430
+  },
+  "research/tcn/outputs/mcfd_pose_lstm/best.pt": {
+    "url": "https://huggingface.co/datasets/minhy112/pose-guided-fall-detection-icta2026/resolve/main/outputs/mcfd_pose_lstm/best.pt",
+    "sha256": "a0c2d23d6e2c4afa68797007cb5d866b6a66e2d661f6749ef259e01d51e29c56",
+    "bytes": 2330232
+  },
+  "research/tcn/outputs/mcfd_pose_tcn_attention/best.pt": {
+    "url": "https://huggingface.co/datasets/minhy112/pose-guided-fall-detection-icta2026/resolve/main/outputs/mcfd_pose_tcn_attention/best.pt",
+    "sha256": "72d5fe1075f45882978be06e36ad628ea8dd363d3868e67992025a7eb44aa807",
+    "bytes": 3734521
+  },
+  "research/Actionsrecognition/Models.py": {
+    "url": "https://raw.githubusercontent.com/GajuuzZ/Human-Falling-Detect-Tracks/master/Actionsrecognition/Models.py",
+    "bytes": 10332,
+    "sha256": "76655d0b318b3922620c450137f0c4c1d82e0121223d1c8fd9b1a9a269b5a3b0"
+  },
+  "research/Actionsrecognition/Utils.py": {
+    "url": "https://raw.githubusercontent.com/GajuuzZ/Human-Falling-Detect-Tracks/master/Actionsrecognition/Utils.py",
+    "bytes": 4695,
+    "sha256": "b26b2b9430a221f1291a5217b2104b38bf6bcab17615981cd2925365c649b4af"
+  },
+  "research/ActionsEstLoader.py": {
+    "url": "https://raw.githubusercontent.com/GajuuzZ/Human-Falling-Detect-Tracks/master/ActionsEstLoader.py",
+    "bytes": 2041,
+    "sha256": "01013847b763944912414c9d8510c4b1c6914a09fb813cc795fc6b8e25c71c40"
+  }
+}

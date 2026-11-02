@@ -1,0 +1,34 @@
+{
+  "mobiledet_edgetpu.tflite": {
+    "url": "https://raw.githubusercontent.com/google-coral/test_data/master/ssdlite_mobiledet_coco_qat_postprocess_edgetpu.tflite",
+    "sha256": "b69e508ef2a670e06b80bd3e5559a827d5cd8d557c95d5e332cbf1d31d434a2e"
+  },
+  "mobiledet_cpu.tflite": {
+    "url": "https://raw.githubusercontent.com/google-coral/test_data/master/ssdlite_mobiledet_coco_qat_postprocess.tflite",
+    "sha256": "32c486140391eb4dc43fca7113ad392be632dc5366687f2731f73d740678693f"
+  },
+  "person_edgetpu.tflite": {
+    "url": "https://raw.githubusercontent.com/google-coral/test_data/master/ssd_mobilenet_v2_coco_quant_postprocess_edgetpu.tflite",
+    "sha256": "b94e2d58222c32f31062c7604e10488e2aba9259ab77462039476a3ba4597fef"
+  },
+  "person_cpu.tflite": {
+    "url": "https://raw.githubusercontent.com/google-coral/test_data/master/ssd_mobilenet_v2_coco_quant_postprocess.tflite",
+    "sha256": "42fb3d70ffb7bb37dd518f730f7be784b831c2078f30c497d0019cc2e987fa26"
+  },
+  "pose_thunder_edgetpu.tflite": {
+    "url": "https://raw.githubusercontent.com/google-coral/test_data/master/movenet_single_pose_thunder_ptq_edgetpu.tflite",
+    "sha256": "3991bfff9039e260a35a86c16130dd866d7b811785dcc1a6050902afd7737fb1"
+  },
+  "pose_thunder.tflite": {
+    "url": "https://raw.githubusercontent.com/google-coral/test_data/master/movenet_single_pose_thunder_ptq.tflite",
+    "sha256": "b72fed22707cd6fb94b5a248b9bddb9c062b9f445471b4fa263407cf6d222011"
+  },
+  "pose_edgetpu.tflite": {
+    "url": "https://raw.githubusercontent.com/google-coral/test_data/master/movenet_single_pose_lightning_ptq_edgetpu.tflite",
+    "sha256": "25c88b77586f65c5c80d868c0555fb194f2b38c0b55aa491f4a93b7d7da58e78"
+  },
+  "pose.tflite": {
+    "url": "https://raw.githubusercontent.com/google-coral/test_data/master/movenet_single_pose_lightning_ptq.tflite",
+    "sha256": "cd7cc22fa946e5d146a7b98d496853e1923e22828d3972d579973f27f91bb105"
+  }
+}

@@ -1,0 +1,42 @@
+title: 室内监控
+views:
+  - title: 室内监控
+    path: live
+    icon: mdi:cctv
+    type: masonry
+    cards:
+      - type: picture-entity
+        entity: camera.192_168_50_102
+        name: 室内标注画面
+        camera_view: live
+        show_state: false
+        show_name: true
+      - type: entities
+        title: 区域状态
+        show_header_toggle: false
+        entities:
+          - entity: sensor.indoor_camera_people
+            name: 人数
+          - entity: binary_sensor.indoor_camera_occupied
+            name: 有人
+          - entity: sensor.indoor_camera_standing
+            name: 站立
+          - entity: sensor.indoor_camera_sitting
+            name: 坐姿
+          - entity: sensor.indoor_camera_lying
+            name: 躺卧
+          - entity: sensor.indoor_camera_unknown
+            name: 姿态不确定
+          - entity: binary_sensor.indoor_camera_possible_fall
+            name: 疑似跌倒状态
+          - entity: event.indoor_camera_fall_candidate_event
+            name: 最近候选事件
+      - type: markdown
+        title: 实时监控说明
+        content: >-
+          已切换 ESP32 实物摄像头，监控整个画面。
+          无线传输仍在调试，可能出现卡顿或离线。
+          跌倒识别仍有明显漏报，候选事件需人工核实。
+          {% if state_attr('event.indoor_camera_fall_candidate_event', 'test') %}
+          最近一条候选事件为接入测试。
+          {% endif %}

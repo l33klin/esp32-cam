@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "indoorcam"
+version = "0.1.0"
+description = "Coral person detection, MoveNet posture, RTSP annotation and Home Assistant MQTT"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.23,<2", "opencv-python-headless==4.11.0.86", "PyYAML>=6,<7", "paho-mqtt>=2.1,<3"]
+
+[project.optional-dependencies]
+cpu = ["tflite-runtime==2.14.0; platform_system == 'Linux'"]
+test = ["pytest>=8,<9"]
+
+[project.scripts]
+indoorcam = "indoorcam.app:main"
+
+[tool.setuptools.packages.find]
+include = ["indoorcam*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

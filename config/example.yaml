@@ -1,0 +1,46 @@
+# Hardware input after arrival: rtsp://192.168.50.120:8554/camera
+source: /media/test.mkv
+backend: coral
+coral_device: pci:0
+# auto follows backend. pn41 has two PCIe TPUs; use pci:1 for pose.
+# On a single TPU, leave pose_device empty to share pci:0.
+pose_backend: auto
+pose_device: pci:1
+# lightning (192x192) or thunder (256x256); run download_models.py for both.
+pose_model: lightning
+model_dir: models
+fps: 8
+width: 960
+height: 540
+threshold: 0.45
+keypoint_threshold: 0.3
+max_people: 10
+detector_tiles: 2
+detector_model: mobiledet
+verify_person_pose: true
+min_person_height: 0.06
+# Normalized points on the OUTPUT image (including any letterbox padding).
+# Empty means whole image. Example floor polygon: [[0.1,0.4],[0.9,0.4],[0.9,0.95],[0.1,0.95]]
+roi: []
+roi_anchor: bottom_center
+posture_hold: 0.5
+track_timeout: 0.8
+fall_window: 1.2
+fall_drop: 0.25
+fall_hold: 1.5
+fall_cooldown: 30
+fall_latch: 10
+rtsp_output: ''
+output_file: artifacts/annotated.mp4
+jsonl: artifacts/detections.jsonl
+realtime: false
+loop: false
+api_host: 127.0.0.1
+api_port: 0
+camera_id: indoor_cam
+mqtt_host: ''
+mqtt_port: 1883
+mqtt_user: indoorcam
+mqtt_password_env: MQTT_PASSWORD
+mqtt_discovery_prefix: homeassistant
+topic_prefix: indoorcam

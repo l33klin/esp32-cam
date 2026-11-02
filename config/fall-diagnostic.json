@@ -1,0 +1,8 @@
+{
+  "threshold": 0.25,
+  "keypoint_threshold": 0.2,
+  "min_person_height": 0.03,
+  "verify_person_pose": false,
+  "detector_tiles": 3,
+  "fall_hold": 0.5
+}

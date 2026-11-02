@@ -1,0 +1,156 @@
+{
+  "method": "Preliminary assistant visual audit, not complete/professional ground truth; no training or local-label threshold fitting",
+  "positive_windows": [
+    {
+      "id": "falls_1",
+      "video": "falls",
+      "window": [
+        3,
+        6.5
+      ],
+      "target_region": [
+        0.23,
+        0.1,
+        0.6,
+        0.6
+      ],
+      "note": "约4.0–4.5秒由站立失衡倒地，随后持续躺卧",
+      "reviewed_onset_approx": 4.125
+    },
+    {
+      "id": "falls_2",
+      "video": "falls",
+      "window": [
+        19,
+        22.5
+      ],
+      "target_region": [
+        0.6,
+        0.3,
+        0.88,
+        0.75
+      ],
+      "note": "约19.5–20.5秒由低姿态前扑倒地，很快被成人遮挡",
+      "reviewed_onset_approx": 20.0
+    },
+    {
+      "id": "falls_3",
+      "video": "falls",
+      "window": [
+        29,
+        32.5
+      ],
+      "target_region": [
+        0.72,
+        0.18,
+        1,
+        0.67
+      ],
+      "note": "约31.0–31.5秒椅旁失衡、跌坐，末态不一定是躺卧",
+      "reviewed_onset_approx": 31.0
+    },
+    {
+      "id": "falls_5",
+      "video": "falls",
+      "window": [
+        58,
+        61.5
+      ],
+      "target_region": [
+        0.27,
+        0.15,
+        0.72,
+        0.68
+      ],
+      "note": "约59.5–60.5秒快速失衡倒地，桌沿遮住部分身体",
+      "reviewed_onset_approx": 59.5
+    }
+  ],
+  "negative_windows": [
+    {
+      "video": "ring",
+      "window": [
+        13,
+        35
+      ],
+      "note": "Walking practice, seated/bending caregivers; no visible fall on contact-sheet review"
+    },
+    {
+      "video": "falls",
+      "window": [
+        9,
+        16
+      ],
+      "note": "Adults standing/walking, infant being held"
+    },
+    {
+      "video": "falls",
+      "window": [
+        36,
+        40
+      ],
+      "note": "Children moving before chair incident"
+    },
+    {
+      "video": "falls",
+      "window": [
+        46,
+        51
+      ],
+      "note": "Adults/children standing after incident"
+    },
+    {
+      "video": "falls",
+      "window": [
+        63,
+        67
+      ],
+      "note": "Caregiver bending to help; not a new fall"
+    },
+    {
+      "video": "falls",
+      "window": [
+        72,
+        77
+      ],
+      "note": "Baby already down after scene cut; not a new fall"
+    }
+  ],
+  "excluded_incident_windows": [
+    {
+      "video": "falls",
+      "window": [
+        40,
+        43.5
+      ],
+      "observation": "约43秒椅子倾倒，成人遮住儿童，不能仅凭这些帧确定儿童落地姿态",
+      "status": "occluded_incident"
+    },
+    {
+      "video": "falls",
+      "window": [
+        68,
+        71.5
+      ],
+      "observation": "68.7秒镜头切换后已是躺卧状态，没有看到这次动作的起始阶段",
+      "status": "already_lying_after_cut"
+    },
+    {
+      "video": "falls",
+      "window": [
+        80,
+        83.5
+      ],
+      "observation": "约81秒后降低姿态并被桌沿遮挡，无法在这里确定是跌倒还是主动蹲下",
+      "status": "ambiguous_low_pose"
+    }
+  ],
+  "event_rule": "score>=.5, TSSTG also top1 Fall Down; >=.25s persistence; 5s per-track cooldown; same track and center inside target region required for positive-window hit",
+  "limitations": [
+    "Four selected positive windows only; event endpoints/target regions approximate",
+    "Negatives only 47s, not full-recording false-positive annotation",
+    "Ring 4-10s includes a child lowering/occlusion and is excluded from negative windows",
+    "All other event times require review; not automatically counted as false positives"
+  ],
+  "onset_note": "First two onsets checked at 0.25s contact-sheet resolution; latter two reuse prior approximate visual notes. Events before onset are lead-in alerts, not confirmed fall detections."
+}

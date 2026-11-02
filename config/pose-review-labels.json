@@ -1,0 +1,1247 @@
+{
+  "schema": "v1 preliminary assistant visual audit; requires user review",
+  "frames": [
+    {
+      "video": "ring",
+      "time": 1,
+      "image": "artifacts/pose-comparison/review-frames/ring-001.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 24,
+      "source_time": 1.001,
+      "count": 3,
+      "pose_audit": [
+        {
+          "bbox_normalized": [
+            0.24,
+            0.7,
+            0.34,
+            1
+          ],
+          "posture": "standing",
+          "note": "baby"
+        }
+      ],
+      "ignore_regions": [],
+      "count_note": "Count visible physical room occupants; exclude screen/mirror duplicates and isolated limbs without a visible body core.",
+      "split": "calibration"
+    },
+    {
+      "video": "ring",
+      "time": 4,
+      "image": "artifacts/pose-comparison/review-frames/ring-004.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 96,
+      "source_time": 4.004,
+      "count": 3,
+      "pose_audit": [
+        {
+          "bbox_normalized": [
+            0.29,
+            0.77,
+            0.38,
+            1
+          ],
+          "posture": "other",
+          "note": "baby crouching; legs partly hidden"
+        }
+      ],
+      "ignore_regions": [],
+      "count_note": "Count visible physical room occupants; exclude screen/mirror duplicates and isolated limbs without a visible body core.",
+      "split": "review"
+    },
+    {
+      "video": "ring",
+      "time": 7,
+      "image": "artifacts/pose-comparison/review-frames/ring-007.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 168,
+      "source_time": 7.007,
+      "count": 3,
+      "pose_audit": [],
+      "ignore_regions": [],
+      "count_note": "Count visible physical room occupants; exclude screen/mirror duplicates and isolated limbs without a visible body core.",
+      "split": "review"
+    },
+    {
+      "video": "ring",
+      "time": 10,
+      "image": "artifacts/pose-comparison/review-frames/ring-010.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 240,
+      "source_time": 10.01,
+      "count": 3,
+      "pose_audit": [
+        {
+          "bbox_normalized": [
+            0.26,
+            0.69,
+            0.34,
+            0.98
+          ],
+          "posture": "standing",
+          "note": "baby"
+        }
+      ],
+      "ignore_regions": [],
+      "count_note": "Count visible physical room occupants; exclude screen/mirror duplicates and isolated limbs without a visible body core.",
+      "split": "calibration"
+    },
+    {
+      "video": "ring",
+      "time": 13,
+      "image": "artifacts/pose-comparison/review-frames/ring-013.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 312,
+      "source_time": 13.013,
+      "count": 3,
+      "pose_audit": [
+        {
+          "bbox_normalized": [
+            0.24,
+            0.69,
+            0.32,
+            0.96
+          ],
+          "posture": "standing",
+          "note": "baby"
+        }
+      ],
+      "ignore_regions": [],
+      "count_note": "Count visible physical room occupants; exclude screen/mirror duplicates and isolated limbs without a visible body core.",
+      "split": "review"
+    },
+    {
+      "video": "ring",
+      "time": 16,
+      "image": "artifacts/pose-comparison/review-frames/ring-016.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 384,
+      "source_time": 16.016,
+      "count": 3,
+      "pose_audit": [
+        {
+          "bbox_normalized": [
+            0.24,
+            0.68,
+            0.32,
+            0.98
+          ],
+          "posture": "standing",
+          "note": "baby"
+        }
+      ],
+      "ignore_regions": [],
+      "count_note": "Count visible physical room occupants; exclude screen/mirror duplicates and isolated limbs without a visible body core.",
+      "split": "review"
+    },
+    {
+      "video": "ring",
+      "time": 19,
+      "image": "artifacts/pose-comparison/review-frames/ring-019.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 456,
+      "source_time": 19.019,
+      "count": 3,
+      "pose_audit": [
+        {
+          "bbox_normalized": [
+            0.28,
+            0.69,
+            0.35,
+            0.97
+          ],
+          "posture": "standing",
+          "note": "baby"
+        }
+      ],
+      "ignore_regions": [],
+      "count_note": "Count visible physical room occupants; exclude screen/mirror duplicates and isolated limbs without a visible body core.",
+      "split": "calibration"
+    },
+    {
+      "video": "ring",
+      "time": 22,
+      "image": "artifacts/pose-comparison/review-frames/ring-022.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 528,
+      "source_time": 22.022,
+      "count": 3,
+      "pose_audit": [
+        {
+          "bbox_normalized": [
+            0.29,
+            0.68,
+            0.36,
+            0.98
+          ],
+          "posture": "standing",
+          "note": "baby"
+        }
+      ],
+      "ignore_regions": [],
+      "count_note": "Count visible physical room occupants; exclude screen/mirror duplicates and isolated limbs without a visible body core.",
+      "split": "review"
+    },
+    {
+      "video": "ring",
+      "time": 25,
+      "image": "artifacts/pose-comparison/review-frames/ring-025.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 600,
+      "source_time": 25.025,
+      "count": 3,
+      "pose_audit": [
+        {
+          "bbox_normalized": [
+            0.29,
+            0.72,
+            0.36,
+            0.99
+          ],
+          "posture": "standing",
+          "note": "baby"
+        }
+      ],
+      "ignore_regions": [],
+      "count_note": "Count visible physical room occupants; exclude screen/mirror duplicates and isolated limbs without a visible body core.",
+      "split": "review"
+    },
+    {
+      "video": "ring",
+      "time": 28,
+      "image": "artifacts/pose-comparison/review-frames/ring-028.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 672,
+      "source_time": 28.028,
+      "count": 3,
+      "pose_audit": [
+        {
+          "bbox_normalized": [
+            0.32,
+            0.72,
+            0.4,
+            1
+          ],
+          "posture": "standing",
+          "note": "baby walking"
+        }
+      ],
+      "ignore_regions": [],
+      "count_note": "Count visible physical room occupants; exclude screen/mirror duplicates and isolated limbs without a visible body core.",
+      "split": "calibration"
+    },
+    {
+      "video": "ring",
+      "time": 31,
+      "image": "artifacts/pose-comparison/review-frames/ring-031.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 744,
+      "source_time": 31.031,
+      "count": 3,
+      "pose_audit": [],
+      "ignore_regions": [],
+      "count_note": "Count visible physical room occupants; exclude screen/mirror duplicates and isolated limbs without a visible body core.",
+      "split": "review"
+    },
+    {
+      "video": "ring",
+      "time": 34,
+      "image": "artifacts/pose-comparison/review-frames/ring-034.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 816,
+      "source_time": 34.034,
+      "count": 3,
+      "pose_audit": [],
+      "ignore_regions": [],
+      "count_note": "Count visible physical room occupants; exclude screen/mirror duplicates and isolated limbs without a visible body core.",
+      "split": "review"
+    },
+    {
+      "video": "ring",
+      "time": 37,
+      "image": "artifacts/pose-comparison/review-frames/ring-037.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 888,
+      "source_time": 37.037,
+      "count": 3,
+      "pose_audit": [],
+      "ignore_regions": [],
+      "count_note": "Count visible physical room occupants; exclude screen/mirror duplicates and isolated limbs without a visible body core.",
+      "split": "calibration"
+    },
+    {
+      "video": "falls",
+      "time": 2,
+      "image": "artifacts/pose-comparison/review-frames/falls-002.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 60,
+      "source_time": 2.0,
+      "count": 1,
+      "pose_audit": [
+        {
+          "bbox_normalized": [
+            0.285,
+            0.085,
+            0.34,
+            0.26
+          ],
+          "posture": "standing",
+          "note": "distant baby"
+        }
+      ],
+      "ignore_regions": [
+        {
+          "bbox_normalized": [
+            0.9,
+            0,
+            1,
+            0.28
+          ],
+          "kind": "mirror"
+        }
+      ],
+      "count_note": "Count visible physical room occupants; exclude screen/mirror duplicates and isolated limbs without a visible body core.",
+      "split": "review"
+    },
+    {
+      "video": "falls",
+      "time": 4,
+      "image": "artifacts/pose-comparison/review-frames/falls-004.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 120,
+      "source_time": 4.0,
+      "count": 1,
+      "pose_audit": [
+        {
+          "bbox_normalized": [
+            0.33,
+            0.19,
+            0.39,
+            0.41
+          ],
+          "posture": "other",
+          "note": "baby losing balance; transition"
+        }
+      ],
+      "ignore_regions": [
+        {
+          "bbox_normalized": [
+            0.9,
+            0,
+            1,
+            0.28
+          ],
+          "kind": "mirror"
+        }
+      ],
+      "count_note": "Count visible physical room occupants; exclude screen/mirror duplicates and isolated limbs without a visible body core.",
+      "split": "review"
+    },
+    {
+      "video": "falls",
+      "time": 5.5,
+      "image": "artifacts/pose-comparison/review-frames/falls-005.50.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 165,
+      "source_time": 5.5,
+      "count": 1,
+      "pose_audit": [
+        {
+          "bbox_normalized": [
+            0.45,
+            0.28,
+            0.54,
+            0.45
+          ],
+          "posture": "lying",
+          "note": "baby on back with bent knees"
+        }
+      ],
+      "ignore_regions": [
+        {
+          "bbox_normalized": [
+            0.9,
+            0,
+            1,
+            0.28
+          ],
+          "kind": "mirror"
+        }
+      ],
+      "count_note": "Count visible physical room occupants; exclude screen/mirror duplicates and isolated limbs without a visible body core.",
+      "split": "calibration"
+    },
+    {
+      "video": "falls",
+      "time": 8,
+      "image": "artifacts/pose-comparison/review-frames/falls-008.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 240,
+      "source_time": 8.0,
+      "count": null,
+      "pose_audit": [],
+      "ignore_regions": [
+        {
+          "bbox_normalized": [
+            0.9,
+            0,
+            1,
+            0.28
+          ],
+          "kind": "mirror"
+        }
+      ],
+      "count_note": "Excluded from count MAE: severe overlap, edge-only body or uncertain visibility; retained for qualitative review.",
+      "split": "review"
+    },
+    {
+      "video": "falls",
+      "time": 12,
+      "image": "artifacts/pose-comparison/review-frames/falls-012.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 360,
+      "source_time": 12.0,
+      "count": 3,
+      "pose_audit": [
+        {
+          "bbox_normalized": [
+            0.48,
+            0.01,
+            0.585,
+            0.44
+          ],
+          "posture": "standing",
+          "note": "adult carrying child"
+        },
+        {
+          "bbox_normalized": [
+            0.55,
+            0.14,
+            0.68,
+            0.65
+          ],
+          "posture": "standing",
+          "note": "adult"
+        }
+      ],
+      "ignore_regions": [
+        {
+          "bbox_normalized": [
+            0.9,
+            0,
+            1,
+            0.28
+          ],
+          "kind": "mirror"
+        }
+      ],
+      "count_note": "Count visible physical room occupants; exclude screen/mirror duplicates and isolated limbs without a visible body core.",
+      "split": "review"
+    },
+    {
+      "video": "falls",
+      "time": 16,
+      "image": "artifacts/pose-comparison/review-frames/falls-016.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 480,
+      "source_time": 16.0,
+      "count": 3,
+      "pose_audit": [
+        {
+          "bbox_normalized": [
+            0.475,
+            0.02,
+            0.56,
+            0.46
+          ],
+          "posture": "standing",
+          "note": "adult carrying child"
+        },
+        {
+          "bbox_normalized": [
+            0.55,
+            0.11,
+            0.68,
+            0.66
+          ],
+          "posture": "standing",
+          "note": "adult"
+        }
+      ],
+      "ignore_regions": [
+        {
+          "bbox_normalized": [
+            0.9,
+            0,
+            1,
+            0.28
+          ],
+          "kind": "mirror"
+        }
+      ],
+      "count_note": "Count visible physical room occupants; exclude screen/mirror duplicates and isolated limbs without a visible body core.",
+      "split": "calibration"
+    },
+    {
+      "video": "falls",
+      "time": 19,
+      "image": "artifacts/pose-comparison/review-frames/falls-019.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 570,
+      "source_time": 19.0,
+      "count": 2,
+      "pose_audit": [
+        {
+          "bbox_normalized": [
+            0.38,
+            0.5,
+            0.48,
+            0.86
+          ],
+          "posture": "standing",
+          "note": "child walking"
+        },
+        {
+          "bbox_normalized": [
+            0.68,
+            0.41,
+            0.8,
+            0.7
+          ],
+          "posture": "other",
+          "note": "baby crawling/kneeling"
+        }
+      ],
+      "ignore_regions": [
+        {
+          "bbox_normalized": [
+            0.055,
+            0,
+            0.365,
+            0.59
+          ],
+          "kind": "television"
+        }
+      ],
+      "count_note": "Count visible physical room occupants; exclude screen/mirror duplicates and isolated limbs without a visible body core.",
+      "split": "review"
+    },
+    {
+      "video": "falls",
+      "time": 21,
+      "image": "artifacts/pose-comparison/review-frames/falls-021.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 630,
+      "source_time": 21.0,
+      "count": null,
+      "pose_audit": [],
+      "ignore_regions": [
+        {
+          "bbox_normalized": [
+            0.055,
+            0,
+            0.365,
+            0.59
+          ],
+          "kind": "television"
+        }
+      ],
+      "count_note": "Excluded from count MAE: severe overlap, edge-only body or uncertain visibility; retained for qualitative review.",
+      "split": "review"
+    },
+    {
+      "video": "falls",
+      "time": 24,
+      "image": "artifacts/pose-comparison/review-frames/falls-024.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 720,
+      "source_time": 24.0,
+      "count": null,
+      "pose_audit": [],
+      "ignore_regions": [
+        {
+          "bbox_normalized": [
+            0.055,
+            0,
+            0.365,
+            0.59
+          ],
+          "kind": "television"
+        }
+      ],
+      "count_note": "Excluded from count MAE: severe overlap, edge-only body or uncertain visibility; retained for qualitative review.",
+      "split": "calibration"
+    },
+    {
+      "video": "falls",
+      "time": 27,
+      "image": "artifacts/pose-comparison/review-frames/falls-027.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 810,
+      "source_time": 27.0,
+      "count": 3,
+      "pose_audit": [
+        {
+          "bbox_normalized": [
+            0.56,
+            0.21,
+            0.67,
+            0.65
+          ],
+          "posture": "standing",
+          "note": "adult"
+        },
+        {
+          "bbox_normalized": [
+            0.68,
+            0.54,
+            0.8,
+            0.68
+          ],
+          "posture": "lying",
+          "note": "baby on mat"
+        }
+      ],
+      "ignore_regions": [
+        {
+          "bbox_normalized": [
+            0.055,
+            0,
+            0.365,
+            0.59
+          ],
+          "kind": "television"
+        }
+      ],
+      "count_note": "Count visible physical room occupants; exclude screen/mirror duplicates and isolated limbs without a visible body core.",
+      "split": "review"
+    },
+    {
+      "video": "falls",
+      "time": 31,
+      "image": "artifacts/pose-comparison/review-frames/falls-031.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 930,
+      "source_time": 31.0,
+      "count": null,
+      "pose_audit": [],
+      "ignore_regions": [
+        {
+          "bbox_normalized": [
+            0.055,
+            0,
+            0.365,
+            0.59
+          ],
+          "kind": "television"
+        }
+      ],
+      "count_note": "Excluded from count MAE: severe overlap, edge-only body or uncertain visibility; retained for qualitative review.",
+      "split": "review"
+    },
+    {
+      "video": "falls",
+      "time": 34,
+      "image": "artifacts/pose-comparison/review-frames/falls-034.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 1020,
+      "source_time": 34.0,
+      "count": null,
+      "pose_audit": [],
+      "ignore_regions": [
+        {
+          "bbox_normalized": [
+            0.055,
+            0,
+            0.365,
+            0.59
+          ],
+          "kind": "television"
+        }
+      ],
+      "count_note": "Excluded from count MAE: severe overlap, edge-only body or uncertain visibility; retained for qualitative review.",
+      "split": "calibration"
+    },
+    {
+      "video": "falls",
+      "time": 38,
+      "image": "artifacts/pose-comparison/review-frames/falls-038.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 1140,
+      "source_time": 38.0,
+      "count": 2,
+      "pose_audit": [
+        {
+          "bbox_normalized": [
+            0.7,
+            0.32,
+            0.8,
+            0.61
+          ],
+          "posture": "standing",
+          "note": "child in pink"
+        },
+        {
+          "bbox_normalized": [
+            0.52,
+            0.26,
+            0.59,
+            0.52
+          ],
+          "posture": "standing",
+          "note": "child in blue"
+        }
+      ],
+      "ignore_regions": [
+        {
+          "bbox_normalized": [
+            0.055,
+            0,
+            0.365,
+            0.59
+          ],
+          "kind": "television"
+        }
+      ],
+      "count_note": "Count visible physical room occupants; exclude screen/mirror duplicates and isolated limbs without a visible body core.",
+      "split": "review"
+    },
+    {
+      "video": "falls",
+      "time": 44,
+      "image": "artifacts/pose-comparison/review-frames/falls-044.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 1320,
+      "source_time": 44.0,
+      "count": null,
+      "pose_audit": [],
+      "ignore_regions": [
+        {
+          "bbox_normalized": [
+            0.055,
+            0,
+            0.365,
+            0.59
+          ],
+          "kind": "television"
+        }
+      ],
+      "count_note": "Excluded from count MAE: severe overlap, edge-only body or uncertain visibility; retained for qualitative review.",
+      "split": "review"
+    },
+    {
+      "video": "falls",
+      "time": 50,
+      "image": "artifacts/pose-comparison/review-frames/falls-050.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 1500,
+      "source_time": 50.0,
+      "count": null,
+      "pose_audit": [],
+      "ignore_regions": [
+        {
+          "bbox_normalized": [
+            0.055,
+            0,
+            0.365,
+            0.59
+          ],
+          "kind": "television"
+        }
+      ],
+      "count_note": "Excluded from count MAE: severe overlap, edge-only body or uncertain visibility; retained for qualitative review.",
+      "split": "calibration"
+    },
+    {
+      "video": "falls",
+      "time": 56,
+      "image": "artifacts/pose-comparison/review-frames/falls-056.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 1680,
+      "source_time": 56.0,
+      "count": null,
+      "pose_audit": [],
+      "ignore_regions": [
+        {
+          "bbox_normalized": [
+            0.9,
+            0,
+            1,
+            0.28
+          ],
+          "kind": "mirror"
+        }
+      ],
+      "count_note": "Excluded from count MAE: severe overlap, edge-only body or uncertain visibility; retained for qualitative review.",
+      "split": "review"
+    },
+    {
+      "video": "falls",
+      "time": 62,
+      "image": "artifacts/pose-comparison/review-frames/falls-062.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 1860,
+      "source_time": 62.0,
+      "count": null,
+      "pose_audit": [],
+      "ignore_regions": [
+        {
+          "bbox_normalized": [
+            0.9,
+            0,
+            1,
+            0.28
+          ],
+          "kind": "mirror"
+        }
+      ],
+      "count_note": "Excluded from count MAE: severe overlap, edge-only body or uncertain visibility; retained for qualitative review.",
+      "split": "review"
+    },
+    {
+      "video": "falls",
+      "time": 66,
+      "image": "artifacts/pose-comparison/review-frames/falls-066.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 1980,
+      "source_time": 66.0,
+      "count": null,
+      "pose_audit": [],
+      "ignore_regions": [
+        {
+          "bbox_normalized": [
+            0.9,
+            0,
+            1,
+            0.28
+          ],
+          "kind": "mirror"
+        }
+      ],
+      "count_note": "Excluded from count MAE: severe overlap, edge-only body or uncertain visibility; retained for qualitative review.",
+      "split": "calibration"
+    },
+    {
+      "video": "falls",
+      "time": 70,
+      "image": "artifacts/pose-comparison/review-frames/falls-070.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 2100,
+      "source_time": 70.0,
+      "count": 3,
+      "pose_audit": [
+        {
+          "bbox_normalized": [
+            0.26,
+            0.43,
+            0.43,
+            0.62
+          ],
+          "posture": "lying",
+          "note": "baby on back"
+        },
+        {
+          "bbox_normalized": [
+            0.25,
+            0.24,
+            0.36,
+            0.5
+          ],
+          "posture": "sitting",
+          "note": "adult seated on mat"
+        }
+      ],
+      "ignore_regions": [
+        {
+          "bbox_normalized": [
+            0.9,
+            0,
+            1,
+            0.28
+          ],
+          "kind": "mirror"
+        }
+      ],
+      "count_note": "Count visible physical room occupants; exclude screen/mirror duplicates and isolated limbs without a visible body core.",
+      "split": "review"
+    },
+    {
+      "video": "falls",
+      "time": 76,
+      "image": "artifacts/pose-comparison/review-frames/falls-076.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 2280,
+      "source_time": 76.0,
+      "count": 3,
+      "pose_audit": [
+        {
+          "bbox_normalized": [
+            0.3,
+            0.52,
+            0.44,
+            0.69
+          ],
+          "posture": "lying",
+          "note": "baby on back"
+        },
+        {
+          "bbox_normalized": [
+            0.25,
+            0.23,
+            0.37,
+            0.55
+          ],
+          "posture": "sitting",
+          "note": "adult seated on mat"
+        }
+      ],
+      "ignore_regions": [
+        {
+          "bbox_normalized": [
+            0.9,
+            0,
+            1,
+            0.28
+          ],
+          "kind": "mirror"
+        }
+      ],
+      "count_note": "Count visible physical room occupants; exclude screen/mirror duplicates and isolated limbs without a visible body core.",
+      "split": "review"
+    },
+    {
+      "video": "falls",
+      "time": 80,
+      "image": "artifacts/pose-comparison/review-frames/falls-080.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 2400,
+      "source_time": 80.0,
+      "count": 4,
+      "pose_audit": [
+        {
+          "bbox_normalized": [
+            0.72,
+            0.08,
+            0.86,
+            0.55
+          ],
+          "posture": "standing",
+          "note": "adult"
+        },
+        {
+          "bbox_normalized": [
+            0.43,
+            0.19,
+            0.51,
+            0.46
+          ],
+          "posture": "standing",
+          "note": "baby"
+        }
+      ],
+      "ignore_regions": [
+        {
+          "bbox_normalized": [
+            0.9,
+            0,
+            1,
+            0.28
+          ],
+          "kind": "mirror"
+        }
+      ],
+      "count_note": "Count visible physical room occupants; exclude screen/mirror duplicates and isolated limbs without a visible body core.",
+      "split": "calibration"
+    },
+    {
+      "video": "falls",
+      "time": 84,
+      "image": "artifacts/pose-comparison/review-frames/falls-084.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 2520,
+      "source_time": 84.0,
+      "count": null,
+      "pose_audit": [],
+      "ignore_regions": [
+        {
+          "bbox_normalized": [
+            0.9,
+            0,
+            1,
+            0.28
+          ],
+          "kind": "mirror"
+        }
+      ],
+      "count_note": "Excluded from count MAE: severe overlap, edge-only body or uncertain visibility; retained for qualitative review.",
+      "split": "review"
+    },
+    {
+      "video": "falls",
+      "time": 88,
+      "image": "artifacts/pose-comparison/review-frames/falls-088.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 2640,
+      "source_time": 88.0,
+      "count": 4,
+      "pose_audit": [
+        {
+          "bbox_normalized": [
+            0.4,
+            0.04,
+            0.53,
+            0.52
+          ],
+          "posture": "standing",
+          "note": "adult"
+        }
+      ],
+      "ignore_regions": [
+        {
+          "bbox_normalized": [
+            0.9,
+            0,
+            1,
+            0.28
+          ],
+          "kind": "mirror"
+        }
+      ],
+      "count_note": "Count visible physical room occupants; exclude screen/mirror duplicates and isolated limbs without a visible body core.",
+      "split": "review"
+    },
+    {
+      "video": "falls",
+      "time": 94,
+      "image": "artifacts/pose-comparison/review-frames/falls-094.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 2820,
+      "source_time": 94.0,
+      "count": null,
+      "pose_audit": [],
+      "ignore_regions": [
+        {
+          "bbox_normalized": [
+            0.9,
+            0,
+            1,
+            0.28
+          ],
+          "kind": "mirror"
+        }
+      ],
+      "count_note": "Excluded from count MAE: severe overlap, edge-only body or uncertain visibility; retained for qualitative review.",
+      "split": "calibration"
+    },
+    {
+      "video": "falls",
+      "time": 110,
+      "image": "artifacts/pose-comparison/review-frames/falls-110.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 3300,
+      "source_time": 110.0,
+      "count": 2,
+      "pose_audit": [
+        {
+          "bbox_normalized": [
+            0.08,
+            0.39,
+            0.49,
+            1
+          ],
+          "posture": "lying",
+          "note": "adult reclining on sofa"
+        },
+        {
+          "bbox_normalized": [
+            0.38,
+            0.31,
+            0.46,
+            0.52
+          ],
+          "posture": "other",
+          "note": "baby crawling"
+        }
+      ],
+      "ignore_regions": [
+        {
+          "bbox_normalized": [
+            0.9,
+            0,
+            1,
+            0.28
+          ],
+          "kind": "mirror"
+        }
+      ],
+      "count_note": "Count visible physical room occupants; exclude screen/mirror duplicates and isolated limbs without a visible body core.",
+      "split": "review"
+    },
+    {
+      "video": "falls",
+      "time": 130,
+      "image": "artifacts/pose-comparison/review-frames/falls-130.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 3900,
+      "source_time": 130.0,
+      "count": null,
+      "pose_audit": [],
+      "ignore_regions": [],
+      "count_note": "Excluded from count MAE: severe overlap, edge-only body or uncertain visibility; retained for qualitative review.",
+      "split": "review"
+    },
+    {
+      "video": "falls",
+      "time": 150,
+      "image": "artifacts/pose-comparison/review-frames/falls-150.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 4500,
+      "source_time": 150.0,
+      "count": 1,
+      "pose_audit": [
+        {
+          "bbox_normalized": [
+            0.61,
+            0.5,
+            0.72,
+            0.76
+          ],
+          "posture": "other",
+          "note": "baby crawling"
+        }
+      ],
+      "ignore_regions": [],
+      "count_note": "Count visible physical room occupants; exclude screen/mirror duplicates and isolated limbs without a visible body core.",
+      "split": "calibration"
+    },
+    {
+      "video": "falls",
+      "time": 170,
+      "image": "artifacts/pose-comparison/review-frames/falls-170.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 5100,
+      "source_time": 170.0,
+      "count": 1,
+      "pose_audit": [
+        {
+          "bbox_normalized": [
+            0.46,
+            0.59,
+            0.63,
+            0.85
+          ],
+          "posture": "other",
+          "note": "adult crouching"
+        }
+      ],
+      "ignore_regions": [],
+      "count_note": "Count visible physical room occupants; exclude screen/mirror duplicates and isolated limbs without a visible body core.",
+      "split": "review"
+    },
+    {
+      "video": "falls",
+      "time": 190,
+      "image": "artifacts/pose-comparison/review-frames/falls-190.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 5700,
+      "source_time": 190.0,
+      "count": 2,
+      "pose_audit": [
+        {
+          "bbox_normalized": [
+            0.675,
+            0.37,
+            0.74,
+            0.57
+          ],
+          "posture": "standing",
+          "note": "child"
+        },
+        {
+          "bbox_normalized": [
+            0.735,
+            0.39,
+            0.88,
+            0.57
+          ],
+          "posture": "sitting",
+          "note": "adult on mat"
+        }
+      ],
+      "ignore_regions": [],
+      "count_note": "Count visible physical room occupants; exclude screen/mirror duplicates and isolated limbs without a visible body core.",
+      "split": "review"
+    },
+    {
+      "video": "falls",
+      "time": 205,
+      "image": "artifacts/pose-comparison/review-frames/falls-205.00.jpg",
+      "width": 960,
+      "height": 540,
+      "source_frame_index": 6150,
+      "source_time": 205.0,
+      "count": 2,
+      "pose_audit": [
+        {
+          "bbox_normalized": [
+            0.6,
+            0.21,
+            0.68,
+            0.52
+          ],
+          "posture": "standing",
+          "note": "child"
+        }
+      ],
+      "ignore_regions": [],
+      "count_note": "Count visible physical room occupants; exclude screen/mirror duplicates and isolated limbs without a visible body core.",
+      "split": "calibration"
+    }
+  ],
+  "label_author": "assistant visual inspection of original frames, not model pseudo-labels",
+  "count_policy": "Visible room occupants, excluding TV/mirror duplicates. Ambiguous crowded/occluded frames have null count and are excluded from exact-count/MAE.",
+  "pose_policy": "Approximate boxes associate selected unambiguous targets only. Not complete object annotations and not suitable for mAP. other means crouching/crawling/transition; no forced stand/sit/lie label.",
+  "matching_iou": 0.2
+}
